@@ -77,3 +77,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.headerCenterElement {
+    margin-right: auto;
+}
+
+.questionsArea {
+    display: inline-block;
+    min-width: 300;
+    overflow-y: scroll;
+}

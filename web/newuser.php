@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="headerCenterElement">
-            <h1>Welcome</h1>
+            <h1>Create New Account</h1>
         </div>
         <div class="flexRight">
             <div id="login" class="flexElement flexFirstRightElement">
@@ -33,10 +33,18 @@
 
     </div>
 
-    <div class="workArea">
-        <a id="startButtonLink" href="">
-            <div id="startButton">Start using templates!</div>
-        </a>
+    <div class="workArea" id="loginFormArea">
+
+        <form method="POST" action="newuser_handler.php">
+            <div>Name: <input type="text" name="name" id="name" /></div>
+            <div>Email: <input type="text" name="email" id="email" /></div>
+            <div>Password: <input type="password" name="passw" id="passw" /></div>
+            <div>Confirm password: <input type="password" name="confPassw" id="confPassw" /></div>
+            <input type="submit" value="Create new account">
+        </form>
+        <a href="login.php">Login into existing account</a>
+        <a href="resetPassword.php">Reset password</a>
+
     </div>
 
     <div id="footer" class="headerFooter">

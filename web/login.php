@@ -16,11 +16,11 @@
                 </a>
             </div>
             <div class="flexElement">
-                <h1>Lazydocuments</h1>
+                <h1>Lazydocuments_</h1>
             </div>
         </div>
-        <div>
-            <!--Name of a section goes here-->
+        <div class="headerCenterElement">
+            <h1>Login</h1>
         </div>
         <div class="flexRight">
             <div id="login" class="flexElement flexFirstRightElement">
@@ -34,15 +34,13 @@
     </div>
 
     <div class="workArea" id="loginFormArea">
-       
-            <form method="POST" action="login_handler.php">
-                <div>Email: <input type="text" name="email" id="email" /></div>
-                <div>Comment: <input type="password" name="passw" id="passw" /></div>
-                <input type="submit" value="Login">
-            </form>
-            <a href="">Create an account</a>
-            <a href="">Restore password</a>
-
+        <form method="POST" action="login_handler.php">
+            <div>Email: <input type="text" name="email" id="email" /></div>
+            <div>Password: <input type="password" name="passw" id="passw" /></div>
+            <input type="submit" value="Login">
+        </form>
+        <a href="newuser.php">Create an account</a>
+        <a href="resetPassword.php">Reset password</a>
     </div>
 
     <div id="footer" class="headerFooter">

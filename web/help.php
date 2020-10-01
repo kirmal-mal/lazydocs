@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="headerCenterElement">
-            <h1>Welcome</h1>
+            <h1>Help</h1>
         </div>
         <div class="flexRight">
             <div id="login" class="flexElement flexFirstRightElement">
@@ -34,9 +34,8 @@
     </div>
 
     <div class="workArea">
-        <a id="startButtonLink" href="">
-            <div id="startButton">Start using templates!</div>
-        </a>
+        <div id="questionsArea"></div>
+        <div id="answersArea"></div>
     </div>
 
     <div id="footer" class="headerFooter">

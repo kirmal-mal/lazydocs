@@ -1,0 +1,11 @@
+{
+    "name": "kirillmalevich/cs401web",
+    "type": "project",
+    "authors": [
+        {
+            "name": "kirmal-mal",
+            "email": "kirmal.mal@gmail.com"
+        }
+    ],
+    "require": {}
+}

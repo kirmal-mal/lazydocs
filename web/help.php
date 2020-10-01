@@ -33,9 +33,29 @@
 
     </div>
 
-    <div class="workArea">
-        <div id="questionsArea"></div>
-        <div id="answersArea"></div>
+    <div class="workArea centralSplitArea">
+        <div id="questionsArea">
+            <ul>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+                <li><a href="">How this website works?</a></li>
+            </ul>
+        </div>
+        <div id="answersArea">
+            Here will be answers for the questions.
+        </div>
     </div>
 
     <div id="footer" class="headerFooter">

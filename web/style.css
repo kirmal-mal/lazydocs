@@ -78,12 +78,79 @@ body {
     align-items: center;
 }
 
+.centralSplitArea {
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+}
+
 .headerCenterElement {
     margin-right: auto;
 }
 
-.questionsArea {
+.tabs, .buttons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+.tabs>li, .buttons>li {
+    display: inline;
+    background-color: #b9d2ff;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+#questionsArea {
     display: inline-block;
     min-width: 300;
+    overflow-y: auto;
+    border-right: 2px solid #32c5f1;
+}
+
+#modeArea {
+    display: inline-block;
+    min-width: 200;
+    border-right: 2px solid #32c5f1;
+}
+
+#answersArea {
+    display: inline-block;
     overflow-y: scroll;
+    padding: 15px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+#questionsArea>ul>li {
+    margin: 5px;
+}
+
+#questionsArea>ul>li>a {
+    text-decoration: none;
+}
+
+
+.fileName {
+    border: none;
+    border-right: 1px solid black;
+}
+
+#controlMenu {
+    height: 20px;
+}
+
+#emptyButton {
+    background-color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 2px;
 }

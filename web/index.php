@@ -34,7 +34,7 @@
     </div>
 
     <div class="workArea">
-        <a id="startButtonLink" href="">
+        <a id="startButtonLink" href="workspace.php">
             <div id="startButton">Start using templates!</div>
         </a>
     </div>

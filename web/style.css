@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flexGrow {
+    flex: 1;
+}
+
+.flexLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flexRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flexElement {
+    display: inline-block;
+}
+
+.flexFirstRightElement {
+    margin-left: auto;
+}
+
+.headerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerIcon {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+#header {
+    height: 100px;
+    border-bottom: 5px solid #32c5f1;
+}
+
+#footer {
+    height: 50px;
+    border-top: 5px solid #32c5f1;
+}
+
+.workArea {
+    margin: 10px;
+    background-image: linear-gradient(#e3f4ff, #b9d2ff);
+    flex-grow: 1;
+    min-height: calc(100vh - 250px);
+}
+
+#startButton {
+    height: 60px;
+    line-height: 60px;
+    width: 300px;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 10px;
+    display: inline-block;
+}
+
+#startButtonLink {
+    text-decoration: none;
+}
+
+#loginFormArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

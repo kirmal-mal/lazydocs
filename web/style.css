@@ -98,26 +98,34 @@ body {
 .tabs>li, .buttons>li {
     display: inline;
     background-color: #b9d2ff;
-    padding: 5px;
-    padding-top: 0px;
+    padding: 0 5px 5px;
+}
+
+.bad {
+    border: black 1px solid;
+    padding: 10px 15px;
+    background-color: #B73239;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 5px;
+    width: 500px;
 }
 
 #questionsArea {
     display: inline-block;
-    min-width: 300;
+    min-width: 300px;
     overflow-y: auto;
     border-right: 2px solid #32c5f1;
 }
 
 #modeArea {
     display: inline-block;
-    min-width: 200;
+    min-width: 200px;
     border-right: 2px solid #32c5f1;
 }
 
 #answersArea {
     display: inline-block;
-    overflow-y: scroll;
     padding: 15px;
     flex: 1;
     overflow-y: auto;
@@ -153,4 +161,13 @@ table {
 td {
     border: 2px solid black;
     padding: 2px;
+}
+
+.validInput {
+    border-color: greenyellow;
+}
+
+.invalidInput {
+    border-color: red;
+    border-width: 3px;
 }

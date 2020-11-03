@@ -1,8 +1,6 @@
 <?php
-require_once "header.php"
-
+require_once "header.php";
 ?>
-
     <div class="workArea centralSplitArea">
         <div id="modeArea">
             <div id="modeTabs">
@@ -21,6 +19,8 @@ require_once "header.php"
                     <li><a href="">Preview</a></li>
                 </ul>
             </div>
+
+
             <div id="mainTableArea">
                 <table id="mainTable">
                     <thead>

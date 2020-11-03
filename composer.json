@@ -7,5 +7,7 @@
             "email": "kirmal.mal@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "tmw/fpdm": "^2.9"
+    }
 }

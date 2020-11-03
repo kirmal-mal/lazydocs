@@ -66,9 +66,9 @@ session_start();
         <div id="userIcon" class="flexElement">
             <?php
             if (isset($_SESSION['auth']) && $_SESSION['auth'] == true) {
-                echo "<a href=\"\"><img class=\"headerIcon\" src=\"img\\avatar_person.png\"></a>";
+                echo "<a href=\"workspace.php\"><img class=\"headerIcon\" src=\"img\\avatar_person.png\"></a>";
             } else {
-                echo "<a href=\"\"><img class=\"headerIcon\" src=\"img\\question_person.png\"></a>";
+                echo "<a href=\"/\"><img class=\"headerIcon\" src=\"img\\question_person.png\"></a>";
             }
             ?>
 

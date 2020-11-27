@@ -55,6 +55,7 @@ body {
     background-image: linear-gradient(#e3f4ff, #b9d2ff);
     flex-grow: 1;
     min-height: calc(100vh - 250px);
+    overflow-x: scroll;
 }
 
 #startButton {
@@ -100,6 +101,12 @@ body {
     background-color: #b9d2ff;
     padding: 0 5px 5px;
 }
+.tabs>li>a {
+    text-decoration: none;
+}
+.buttons>li>a {
+    text-decoration: none;
+}
 
 .bad {
     border: black 1px solid;
@@ -142,7 +149,6 @@ body {
 
 .fileName {
     border: none;
-    border-right: 1px solid black;
 }
 
 #controlMenu {
@@ -162,6 +168,9 @@ td {
     border: 2px solid black;
     padding: 2px;
 }
+table>th {
+    border: none;
+}
 
 .validInput {
     border-color: greenyellow;
@@ -170,4 +179,55 @@ td {
 .invalidInput {
     border-color: red;
     border-width: 3px;
+}
+
+.notimplemented{
+    color: grey;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.downloadIcon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer; 
+}
+
+.iconCell {
+    text-align: center;
+    border: none;
+    vertical-align: middle;
+}
+
+.textField {
+    width: 80px;
+}
+
+.cellButton {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+.removeColumnButton {
+    width: 7px;
+    height: 7px;
+    padding: 0 0 0 0;
+}
+
+#templateRow {
+    display: none;
+}
+
+.fieldTextField {
+    width: 100px
+}
+
+.textFieldIcon {
+    white-space: nowrap;
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: left;
 }

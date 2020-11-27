@@ -1,6 +1,5 @@
 <?php
 require_once "header.php";
-echo $_SERVER['HTTP_REFERER'];
 ?>
 
     <div class="workArea centralSplitArea">

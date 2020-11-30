@@ -28,7 +28,7 @@ function save() {
 }
 
 $(function() {
-	
+	$.getScript("./js/savy.min.js");
 	$('.auto-save').savy('load');
 
 	if (sessionStorage.getItem("rows")) {

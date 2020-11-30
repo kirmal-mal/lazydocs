@@ -1,0 +1,32 @@
+<table id="mainTable">
+	<thead>
+		<tr id="headerRow">
+			<form id="fieldForm" method="PUT" autocomplete="off"></form>
+			<th>Download</th>
+			<th>Filename</th>
+			<th class="textFieldIcon">
+				<input form="fieldForm" type="text" placeholder="TextToReplace" class="fieldTextField auto-save" name="field1" id="fn1">
+				<img src="img/remove_icon.png" class="cellButton removeColumnButton" title="Remove Column">
+			</th>
+			<th class="iconCell" id="lastColumn">
+				<img src="img/plus_icon.png" class="cellButton" id="addColumnButton" title="Add Column">
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="templateRow">
+			<form class="downloadForm" method="GET" action="#" id="form1" autocomplete="off"></form>
+			<td class="iconCell"><input form="form1" type="image" src="img/download_icon.png" alt="submit" class="downloadIcon"></td>
+			<td class="fileName"><input form="form1" type="text" class="textField filename auto-save" name="filename"></td>
+			<td class="field" id="templateField"><input form="form1" type="text" class="textField replaceField auto-save" name="field1" id="fr1c1"></td>
+			<td class="iconCell">
+				<img src="img/remove_icon.png" class="cellButton removeRowButton" title="Remove Row">
+			</td>
+		</tr>
+		<tr id="lastRow">
+			<td class="iconCell">
+				<img src="img/addrow_icon.png" class="cellButton" id="addRowButton" title="Add Row">
+			</td>
+		</tr>
+	</tbody>
+</table>

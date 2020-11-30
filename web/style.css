@@ -231,3 +231,19 @@ table>th {
     vertical-align: middle;
     text-align: left;
 }
+
+#phpErrorArea {
+    display: none;
+}
+
+.tabContent {
+    margin-top: 10px;
+}
+
+#helpLink {
+    display: none;
+}
+
+#uploaded {
+    background-color: #32c5f1;
+}

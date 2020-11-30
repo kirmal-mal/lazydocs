@@ -2,3 +2,5 @@ vendor/
 .env
 web/log.txt
 .idea
+send/*
+templates/*

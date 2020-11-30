@@ -58,7 +58,7 @@ session_start();
         <div id="login" class="flexElement flexFirstRightElement">
             <?php
             if (isset($_SESSION['auth']) && $_SESSION['auth'] == true) {
-                echo "<a id=\"loginLink\" href=\"logout.php\">Logout</a>";
+                echo "<a id=\"logoutLink\" href=\"logout.php\">Logout</a>";
             } else {
                 echo "<a id=\"loginLink\" href=\"login.php\">Login</a>";
             }

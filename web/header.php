@@ -6,6 +6,8 @@ session_start();
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <title>
         Lazydocuments
     </title>
@@ -20,11 +22,11 @@ session_start();
                 <img id="logoimg" class="headerIcon" src="img\android-chrome-192x192.png" alt="Website logo">
             </a>
         </div>
-        <div class="flexElement">
+        <div class="flexElement monofont coloredFont">
             <h1>Lazydocuments</h1>
         </div>
     </div>
-    <div class="headerCenterElement">
+    <div class="headerCenterElement monofont">
         <h1><?php
             $filename = explode('.', basename($_SERVER['REQUEST_URI']))[0];
             switch ($filename) {

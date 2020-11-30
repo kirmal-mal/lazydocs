@@ -248,3 +248,11 @@ table>th {
 #uploaded {
     background-color: #32c5f1;
 }
+
+.monofont {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.coloredFont {
+    color: #aaaadd;
+}

@@ -2,8 +2,6 @@
 require_once "header.php";
 require_once "authorize.php";
 ?>
-    <script>$.getScript("workspace.js");</script>
-    <script>$.getScript("js\\savy.min.js");</script>
     <div class="workArea centralSplitArea">
         <div id="modeArea">
             <div id="modeTabs">
@@ -53,7 +51,8 @@ require_once "authorize.php";
             </div>
         </div>
     </div>
-
+    <script>$.getScript("workspace.js");</script>
+    <script>$.getScript("js/savy.min.js");</script>
 <?php
 require_once "footer.php"
 ?>
